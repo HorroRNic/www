@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color:#dbdbdb;
+	background-image:url(image/Background.gif);
+	background-repeat:repeat-x;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header-up {
+	height:50px;
+}
+
+#site-mane {
+	float:left;
+	position:relative;
+}
+		/**************Find system*********************/
+#find {
+position:relative;
+float:right;
+margin-top:15px;
+width:280px;
+height:25px;
+}
+
+#btn,
+#btn:hover,
+#btn:active,
+#btn:focus {
+	float: right;
+	border: 0px;
+	width: 46px;
+	height: 21px;
+	outline:none;
+	background-image:url(image/find.jpg);
+	background-repeat:no-repeat;
+}
+
+#number {
+	float: left;
+	height: 18px;
+	padding: 2px 8px;
+	width: 218px;
+	border: 0px;
+	font: normal 11px Verdana;
+	color: #999;
+	background-image:url(image/find-main.jpg);
+	background-repeat:no-repeat;
+}
+			/*******************************End Find system***********/
+			
+			/***********Header***************************************/
+#header {
+	height: 200px;
+	position:relative;
+	/*background: #FFE680;*/
+}
+
+#header-top-content {
+	height:8px;
+	margin-left:8px;
+	margin-right:8px;
+	background:#f4f4f4;
+	
+}
+
+#tl {
+	height:8px;
+	margin-left:-8px;
+background: url(image/tl.png) top left no-repeat;
+
+}
+
+#tr {
+	height:8px;
+	margin-right:-8px;
+	background:url(image/tr.png) top right no-repeat;
+}
+
+#header-content {
+height:170px;
+background:#f4f4f4;	
+}
+
+#header-bottom-content {
+	height:8px;
+	margin-left:8px;
+	margin-right:8px;
+	background:#f4f4f4;
+	
+}
+#bl {
+	height:8px;
+	margin-left:-8px;
+	background: url(image/bl.png) no-repeat;
+}
+
+#br {
+	height:8px;
+	margin-right:-8px;
+	background:url(image/br.png) bottom right no-repeat;
+}
+		
+									/*************************Header-content*********************/
+									
+									
+								/*****************************Menu-content*********************/
+#menu {
+	height:36px;		
+	position:relative;
+}
+
+#menu-left-content {
+	float:left;
+	height:20px;
+	width:8px;
+	margin-top:8px;
+	margin-bottom:8px;
+	background:#737578;
+}
+
+#menu-tl {
+	height:8px;
+	margin-top:-8px;
+	background: url(image/menu-tl.png) no-repeat;
+}
+
+#menu-bl {
+	float:left;
+	height:8px;
+	width:8px;
+	margin-top:28px;
+	background: url(image/menu-bl.png) no-repeat;	
+}
+
+
+#menu-content {
+	float:left;
+	height:36px;
+	width:986px;
+	background:#737578;
+}
+
+#menu-right-content {
+	float:right;
+	height:20px;
+	width:8px;
+	margin-top:8px;
+	margin-right:-2px;
+	background:#737578;
+
+}
+
+#menu-tr {
+	height:8px;
+	margin-top:-8px;
+	background:url(image/menu-tr.png) top right no-repeat;	
+}
+
+#menu-br {
+	float:right;
+	height:8px;
+	width:8px;
+	margin-top:28px;
+	background: url(image/menu-br.png) no-repeat;	
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 135px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 270px 0 0;
+	height:500px;
+}
+#LeftTop {
+	float:left;
+	height:400px;
+	width:300px;
+	margin-top:20px;
+	position: relative;
+	background:#F0C;
+}
+#RightTop {
+	float:right;
+	height:400px;
+	width:300px;
+	margin-top:20px;
+	position: relative;
+	background:#900;	
+}
+#LeftBottom {
+	float:left;
+	height:400px;
+	width:300px;
+	margin-top:20px;
+	position: relative;
+	background:#309;
+	clear:both;
+}
+#RightBottom { 
+	float:right;
+	height:400px;
+	width:300px;
+	margin-top:20px;
+	position: relative;
+	background:#FF0;
+}
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRightTop {
+	float: left;
+	margin-right: -3px;
+	width: 250px;
+	height:400px;
+	margin-top:20px;
+	margin-left: -250px;
+	position: relative;
+	background: #FFACAA;
+	background-color: #00FFFF;
+}
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	margin-top: 440px;
+	height:400px;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #FFACAA;
+	background-color:#0F0;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1000px;
+	margin: -135px auto 0;
+	height: 135px;
+	background: #BFF08E;
+	position: relative;
+	clear:both;
+}
